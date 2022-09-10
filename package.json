@@ -8,7 +8,8 @@
     "bun-types": "^0.1.0"
   },
   "scripts": {
-    "start-observer": "bun run src/design-pattern/observer-pattern/oberver-push-pattern/main.ts"
+    "start-observer-push": "bun run src/design-pattern/observer-pattern/oberver-push-pattern/main.ts",
+    "start-observer-pull": "bun run src/design-pattern/observer-pattern/oberver-pull-pattern/main.ts"
   },
   "dependencies": {
     "bunrest": "^1.1.0",
