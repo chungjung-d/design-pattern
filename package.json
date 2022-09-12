@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start-observer-push": "bun run src/design-pattern/observer-pattern/oberver-push-pattern/main.ts",
-    "start-observer-pull": "bun run src/design-pattern/observer-pattern/oberver-pull-pattern/main.ts"
+    "start-observer-pull": "bun run src/design-pattern/observer-pattern/oberver-pull-pattern/main.ts",
+    "start-decorator" : "bun run src/design-pattern/decorator-pattern/main.ts"
   },
   "dependencies": {
     "bunrest": "^1.1.0",
