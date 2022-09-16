@@ -1,5 +1,11 @@
 export interface ICoffeeResource{}
 
-export interface IWater extends ICoffeeResource{}
-export interface IBean extends ICoffeeResource{}
-export interface ICup extends ICoffeeResource{}
+export interface IWater extends ICoffeeResource{
+  explanation : string
+}
+export interface IBean extends ICoffeeResource{
+  explanation : string
+}
+export interface ICup extends ICoffeeResource{
+  explanation : string
+}

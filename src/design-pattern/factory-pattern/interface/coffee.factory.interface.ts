@@ -5,5 +5,5 @@ export interface ICoffeeFactory{
   createWater() : IWater
   createBean() : IBean
   createCup() : ICup
-  createCoffee(water : IWater, bean:IBean, cup : ICup) : ICoffee
+  createCoffee() : ICoffee
 }
